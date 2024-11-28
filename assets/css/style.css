@@ -346,11 +346,46 @@ header .navbar ul li a:hover {
 /* hero media queries ends*/
 /* hero section end */
 
-.tawkchat-container {
-    left: 10px !important; /* Adjust the value as needed */
-    right: auto !important;
+/* Customize Tawk.to widget */
+#tawk-chat-container {
+    background-color: #2c3e50 !important; /* Change the background color */
 }
 
+#tawk-chat-container .tawk-minimized {
+    background-color: #3498db !important; /* Minimized chat bubble color */
+    border-radius: 50% !important;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#tawk-chat-container .tawk-chat {
+    color: #ecf0f1 !important; /* Change the chat text color */
+}
+
+#tawk-chat-container .tawk-close-button {
+    background-color: #e74c3c !important; /* Close button color */
+}
+
+#tawk-chat-container .tawk-chat .tawk-chat-header {
+    background-color: #1abc9c !important; /* Header color */
+}
+
+#tawk-chat-container .tawk-chat .tawk-chat-body {
+    font-family: 'Arial', sans-serif !important; /* Font family */
+}
+
+#tawk-chat-container .tawk-chat .tawk-chat-footer {
+    background-color: #16a085 !important; /* Footer color */
+}
+
+#tawk-chat-container .tawk-chat .tawk-chat-body input[type="text"] {
+    background-color: #ecf0f1 !important; /* Input field background */
+    color: #2c3e50 !important; /* Input text color */
+}
+
+#tawk-chat-container .tawk-chat .tawk-chat-body button[type="submit"] {
+    background-color: #3498db !important; /* Send button color */
+    border-radius: 5px !important;
+}
 
 
 /* about section starts */
