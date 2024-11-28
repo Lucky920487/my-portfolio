@@ -345,12 +345,12 @@ header .navbar ul li a:hover {
 }
 /* hero media queries ends*/
 /* hero section end */
-<style>
-#tawkchat-container {
+
+.tawkchat-container {
     left: 10px !important; /* Adjust the value as needed */
     right: auto !important;
 }
-</style>
+
 
 
 /* about section starts */
