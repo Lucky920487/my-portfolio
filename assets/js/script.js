@@ -60,8 +60,8 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Jigar Sable";
-            $("#favicon").attr("href", "assets/images/favicon.png");
+            document.title = "Portfolio | Pavitraa";
+           
         }
         else {
             document.title = "Come Back To Portfolio";
@@ -72,7 +72,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Java Development", "ML Enthusiast", "Python Development", "Web development"],
+    strings: ["Java Development", "Machine Learning", "Python Development", "Web development"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
