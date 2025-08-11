@@ -4,7 +4,7 @@ This is my personal portfolio website built using **React.js** and deployed on *
 It showcases my skills, projects, and achievements in a clean and modern design.
 
 ## 🚀 Live Demo
-🔗 [[View Portfolio](https://your-netlify-link.netlify.app)](https://cheery-halva-20b3e5.netlify.app/)
+🔗 [[[View Portfolio](https://cheery-halva-20b3e5.netlify.app/)]
 
 ## 🛠️ Tech Stack
 - **Frontend:** React.js, HTML5, CSS3, JavaScript (ES6+)
