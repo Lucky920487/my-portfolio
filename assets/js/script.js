@@ -40,7 +40,7 @@ $(document).ready(function () {
 
     // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
-        emailjs.init("RqkFXGEGSKGa4MoaP");
+        emailjs.init("XVOxvChaGYXLmyiOm");
 
         emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
             .then(function (response) {
@@ -60,7 +60,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Pavitraa";
+            document.title = "Portfolio | Lucky kumari";
            
         }
         else {
@@ -72,7 +72,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Java Development", "Machine Learning", "Python Development", "Web development"],
+    strings: ["Data Science", "Machine Learning", "Python Development", "Web development"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -191,18 +191,7 @@ document.onkeydown = function (e) {
     }
 }
 
-// Start of Tawk.to Live Chat
 
-
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/6747ef442480f5b4f5a4fa4d/1idoft9q4';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
 
 
 /* ===== SCROLL REVEAL ANIMATION ===== */
